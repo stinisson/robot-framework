@@ -5,7 +5,7 @@ Library  OperatingSystem
 Suite Setup  Run keywords
 ...  Setup chromedriver
 ...  Go to homepage
-#Suite Teardown  Close All Browsers
+Suite Teardown  Close All Browsers
 
 *** Variables ***
 ${EXECDIR}  C:\Python39

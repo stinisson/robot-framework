@@ -4,8 +4,10 @@ Library  SeleniumLibrary
 Library  OperatingSystem
 Suite Setup  Run keywords
 ...  Setup chromedriver
-...  Go to homepage
 Suite Teardown  Close All Browsers
+
+Test Setup       Go to homepage
+#Test Teardown    Close All Browsers
 
 *** Variables ***
 ${EXECDIR}  C:\Python39
