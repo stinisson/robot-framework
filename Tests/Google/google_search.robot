@@ -31,4 +31,3 @@ Google and check results
     Input Text  class=gLFyf  ${searchkey}
     Press Keys  class=gLFyf  RETURN
     Wait Until Page Contains  ${result}
-

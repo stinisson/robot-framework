@@ -30,5 +30,3 @@ Search Regression testing, select from drop down menu, check result
     Mouse Over  xpath=//div[@class="mdh-search-autosuggest__results-container"]
     Click Element  xpath=//li[@data-suggestion-index=0]
     Wait Until Page Contains  ${result}
-
-

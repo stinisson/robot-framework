@@ -33,6 +33,3 @@ Filter and check result
     Click Element  xpath=//label[@for="teachingform-Distance"]
     Click Element  xpath=//div[@class="mdh-form__dropdown"]
     Wait Until Page Contains  ${result}
-
-
-
